@@ -24,11 +24,10 @@ body {
     justify-content: space-between;
     height: 80%;
     width: 90%;
-    background-image: url("../images/dark\ cloud.jpg");
+    background-image: url("../images/pexels-billel-moula-540518.jpg");
     background-size: cover;
     background-position: cover cover;
     position: relative;
-   
 }
 
 #landingSection > #container > #titleSection {
