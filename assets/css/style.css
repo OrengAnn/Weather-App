@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+#landingSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(6deg, #081821 70%, #624b3c);
+}
+
+#landingSection #container{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 90%;
+    background: url(../images/dark\ cloud.jpg);
+    background-size: cover;
+    background-position: cover cover;
+    position: relative;
+}
+
+#landingSection #container #titleSection{
+    position: relative;
+    color: #f2f2f1;
+    flex: 3;
+}
+
+#landingSection #container #titleSection p{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-weight: 500;
+    font-size: .7rem;
+}
+
+#landingSection #container #titleSection .wrapper{
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+#landingSection #container #titleSection .wrapper .degree{
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-right: .5rem;
+}
+
+#landingSection #container #titleSection .wrapper .cityDate .cityName{
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+}
+
+#landingSection #container #titleSection .weatherDescription{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    border-radius: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(2,34,53,.3);
+    bottom: 22%;
+    left: 30%;
+    transform: translate(-50%, 50%);
+    display: none;
+}
+
+#landingSection #container #titleSection .weatherDescription h1,h2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: .5rem 0;
+    opacity: .7;
+    color: #fcfdfd;
+}
+
+#landingSection #container #titleSection .weatherDescription h1{
+    font-size: 1.3rem;
+}
