@@ -87,3 +87,44 @@
 #landingSection #container #titleSection .weatherDescription h1{
     font-size: 1.3rem;
 }
+
+#landingSection #container #infoSection{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    height: 100%;
+    color: #fcfdfd;
+    position: relative;
+    background: rgba(2,34,53,.7);
+}
+
+#landingSection #container #infoSection #form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#landingSection #container #infoSection #form .location{
+    padding: 0.5rem, 2.5rem, 0.5rem, 0;
+    border: none;
+    border-bottom: 1px solid #9e9ea7;
+    background: transparent;
+    outline: none;
+    color: #fcfdfd;
+}
+
+::placeholder{
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+#landingSection #container #infoSection #form 
+.submit{
+    cursor: pointer;
+    
+}
