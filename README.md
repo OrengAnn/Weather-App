@@ -2,7 +2,7 @@
 
 ## By Ann Oreng
 
-![Weather App Landing](./assets/images/screencapture-127-0-0-1-5500-2022-06-21-21_07_52.png)
+![Weather App Landing](./assets/images/Screenshot%20from%202022-09-04%2018-10-35.png)
 
 
 ## Weather App
