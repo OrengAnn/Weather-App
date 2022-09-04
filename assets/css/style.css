@@ -148,5 +148,23 @@
 
 #landingSection > #container > #infoSection > .cities {
     margin-bottom: 1rem;
-  
+}
+
+#landingSection > #container > #infoSection > .cities h3{
+    font-size: .9rem;
+    font-weight: 400;
+    padding: .5rem 0;
+    opacity: .5;
+    cursor: pointer;
+}
+
+#landingSection > #container > #infoSection > .cities h3:hover{
+    transition: all ease-in-out;
+    font-weight: 500;
+    opacity: .8;
+    background: rgba(27, 84, 118, .7);
+}
+
+hr{
+    color: #9e9ea7;
 }
